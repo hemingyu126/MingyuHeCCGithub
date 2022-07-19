@@ -14,6 +14,7 @@ public class Main extends Application {
 			VBox root new VBox();
 			root.getChildren().add(new Label("Mohammad's label"));
 			Scene scene = new Scene(root,400,400);
+			root.getChildren().add(new Label("Mohammad's branch"));
 			
 			primaryStage.setScene(scene);
 			primaryStage.setTitle("Mingyu He's Project");
