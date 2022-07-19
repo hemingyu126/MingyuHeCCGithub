@@ -3,7 +3,6 @@ package application;
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.control.Label;
 
@@ -11,8 +10,9 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			VBox root new VBox();
+			VBox root = new VBox();
 			root.getChildren().add(new Label("Mohammad's label"));
+			root.getChildren().add(new Label("Mingyu's Label"));
 			Scene scene = new Scene(root,400,400);
 			
 			primaryStage.setScene(scene);
