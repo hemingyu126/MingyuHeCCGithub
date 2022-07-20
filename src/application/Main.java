@@ -11,7 +11,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			VBox root = new VBox();
-			root.getChildren().add(new Label("Mohammad's label"));
+			root.getChildren().add(new Label("Mohammad's label (CHANGE BY MOHAMMAD ON MINGYU TEST)"));
 			root.getChildren().add(new Label("Mingyu's another label"));
 			root.getChildren().add(new Label("Mingyu's label"));
 			Scene scene = new Scene(root,400,400);
